@@ -4,7 +4,7 @@
   "description": "A boilerplate for running a Webpack workflow in Node express",
   "main": "server.js",
   "scripts": {
-    "start": "NODE_ENV=production PORT=4000 node server",
+    "start": "NODE_ENV=production node server",
     "dev": "NODE_ENV=development node server",
     "postinstall": "node heroku",
     "test": "echo \"Error: no test specified\" && exit 1"
